@@ -1,7 +1,7 @@
 
-            Fonts used: LeagueGothic-Italic,Bellfort 
+            Fonts used: Lato-Bold,Bellfort 
 
-            Colors used: E5E5E5,E87121  
+            Colors used: 66A3BB,253A47  
 
             Icon url: https://thenounproject.com/term/bird/16946  
         
