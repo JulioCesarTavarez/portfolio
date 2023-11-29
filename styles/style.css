@@ -232,37 +232,3 @@ footer .social img {
     padding-top: 1%;
 }
 
-.outdoor-grid {
-    max-width: 1000px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color: rgb(192, 192, 188);
-    border-radius: 20px;
-    overflow: hidden;
-    margin: 3% auto 3% auto;
-}
-
-.outdoor-page-card-1 h2{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-.outdoor-page-card-2 h2{
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-.outdoor-page-card-1 img{
-    grid-column: 1/2;
-    grid-row: 2/5;
-}
-.outdoor-page-card-2 img{
-    grid-column: 2/3;
-    grid-row: 2/5;
-}
-.outdoor-page-card-1 p{
-    grid-column: 1/2;
-    grid-row: 5/8;
-}
-.outdoor-page-card-2 p{
-    grid-column: 2/3;
-    grid-row: 5/8;
-}
