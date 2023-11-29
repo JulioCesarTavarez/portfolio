@@ -24,6 +24,7 @@ nav {
 .logo{
     width: 35%;
     background-color: #000000;
+    margin: 5%;
 }
 .home-title{
     grid-column: 2/5;
@@ -41,7 +42,7 @@ body{
 }
  
 #hero-img{
-    width:100%
+    width:100%;
 }
 #hero-box {
     grid-column: 1/4;
@@ -108,6 +109,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    max-height: 150px;
 }
 footer a:hover{
     color: #ffffff;
@@ -136,3 +138,131 @@ footer .social img {
    text-justify: bottom;
 }
 
+
+
+
+
+
+/* indoor activity CSS */
+.indoor-intro{
+    justify-self: center;
+    text-align: center;
+    padding-top: 1%;
+}
+.activities-card{
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(132, 183, 197);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.activities-card:nth-of-type(1) {
+    margin-top: 2%;
+}
+.activities-card:nth-of-type(2) {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(132, 183, 197);
+}
+
+.activities-card img {
+    width: 70%;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    justify-self: center;
+    align-self: center;
+    padding: 3%;
+    margin: 2% 0;
+}
+
+.activities-card h2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.activities-info {
+    padding: 5%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.middle-activities-card {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(192, 192, 188);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 3% auto 3% auto;
+}
+
+.middle-activities-card img {
+    width: 70%;
+    grid-column: 2/3;
+    grid-row: 1/4;
+    justify-self: center;
+    align-self: center;
+    padding: 3%;
+}
+
+.middle-activities-card h2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.middle-activities-info {
+    padding: 5%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+
+
+
+/* Outdoor page */
+
+.page-title{
+    justify-self: center;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.outdoor-grid {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(192, 192, 188);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 3% auto 3% auto;
+}
+
+.outdoor-page-card-1 h2{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.outdoor-page-card-2 h2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.outdoor-page-card-1 img{
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+.outdoor-page-card-2 img{
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+.outdoor-page-card-1 p{
+    grid-column: 1/2;
+    grid-row: 5/8;
+}
+.outdoor-page-card-2 p{
+    grid-column: 2/3;
+    grid-row: 5/8;
+}
