@@ -104,7 +104,7 @@ body{
 footer{
     background-color: #3493AD;
     padding: 0 15%;
-    margin-top: 20%;
+    margin-top: 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -125,7 +125,14 @@ footer p {
     margin: 10% auto;
     color: #000000;
 }
+
 footer .social img {
     padding-top: 3%;
+}
+
+.red-line{
+    max-width: 25%;
+   color: rgb(56, 2, 112);
+   text-justify: bottom;
 }
 
