@@ -9,7 +9,7 @@ nav a:hover{
     background-color: #01536c;
     color: #ffffff;
     text-decoration: underline;
-
+    transition: .5s;
 }
 nav a {
     text-decoration: none;
@@ -114,6 +114,7 @@ footer{
 footer a:hover{
     color: #ffffff;
     background-color: #01536c;
+    transition: .5s;
 }
 footer a{
     text-decoration: none;
