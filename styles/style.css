@@ -237,9 +237,6 @@ footer .social img {
     display: grid;
     grid-template-columns: repeat(2 1fr);
 }
-.outdoor-page-card{
-    grid-template-columns: 1fr;
-}
 .card-1{
     grid-columns: 1/2 ;
 }
