@@ -22,9 +22,9 @@ nav {
     justify-content: space-around;
 }
 .logo{
-    width: 35%;
+    width: 30%;
     background-color: #000000;
-    margin: 5%;
+    margin: 2%;
 }
 .home-title{
     grid-column: 2/5;
@@ -43,6 +43,7 @@ body{
  
 #hero-img{
     width:100%;
+    height: 80%;
 }
 #hero-box {
     grid-column: 1/4;
@@ -243,6 +244,7 @@ footer .social img {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 10% 5% 10% 5%
 }
 .outdoor-page-card img{
     width: 80%;
@@ -251,13 +253,14 @@ footer .social img {
 .outdoor-page-card p{
     width: 80%;
     margin-left: 10%;
+    background-color: ;
 }
-.outdoor-page-card h2{
 
-}
+
 .card-1{
     grid-column: 1/2;
     background-color: rgb(132, 183, 197);
+
 }
 .card-2{
     grid-column: 2/3;
@@ -269,7 +272,7 @@ footer .social img {
     background-color: #4e94a8;
 }
 
-.card-4{
+.card-4 {
     grid-column: 2/3 ;
     background-color: rgb(132, 183, 197);
 }
