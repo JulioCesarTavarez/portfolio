@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Activities around Rexburg</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/slideshow.js" defer></script>
 </head>
 <body>
     <header>
@@ -30,17 +31,38 @@
    
 
     <main class="main-grid">
-        <div class="indoor-card">
-            <h2>Indoor Activities</h2>
-            <img src="images/fatcats_bowling.jpg" alt="bowling at fatcats">
-            <p class="pages-info">As users come to this page they will be able to find a wider verity of activities that they can do inside a building and hid from weather conditions outside. These activities can be from eating in different type of local resturaunts or seeing the fossil musium on campus ot going to the indoor axe throwing areana. This page is ment to help visitors and BYU-I students or even long term comunity members find somthing to do in there spare time and enjoy it with others.</p>
-        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade ">
+                <!-- <div class="numbertext">1 / 3</div> -->
+                <img src="images/fatcats_bowling.jpg" style="width:600px;">
+                <div class="text">
+                    <h2>Indoor Activities</h2>
+                    <p class="pages-info">As users come to this page they will be able to find a wider verity of activities that they can do inside a building and hid from weather conditions outside. These activities can be from eating in different type of local resturaunts or seeing the fossil musium on campus ot going to the indoor axe throwing areana. This page is ment to help visitors and BYU-I students or even long term comunity members find somthing to do in there spare time and enjoy it with others.</p>
+                </div>
+            </div>
 
-        <div class="outdoor-card">
-            <h2>Outdoor Activities</h2>
+            <div class="mySlides fade " >
+                <!-- <div class="numbertext">1 / 3</div> -->
+                <img src="images/goldbug.jpg" style="width: 600px">
+                <div class="text">
+                    <h2>Outdoor Activities</h2>
+                    <p class="pages-info">Users will be using the Outdoor Activities to find what they are able to do outdoors during all differnt types of the season. From skying and snowboarding to going on a wonderful long hike. This can also include finding new hangout spots to go fishing or maybe you want a fun thrilling adenture like the outdoor paintball areana. Either way this page is bound to help people find somthing to do alone or with a large group.</p>
+                </div>
+            </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <!-- <div class="indoor-card">
+            
+            <img src="images/fatcats_bowling.jpg" alt="bowling at fatcats">
+        </div> -->
+
+        <!-- <div class="outdoor-card">
+           
             <img class="goldbug-img" src="images/goldbug.jpg" alt="GoldBug Hike">
             <p class="pages-info">Users will be using the Outdoor Activities to find what they are able to do outdoors during all differnt types of the season. From skying and snowboarding to going on a wonderful long hike. This can also include finding new hangout spots to go fishing or maybe you want a fun thrilling adenture like the outdoor paintball areana. Either way this page is bound to help people find somthing to do alone or with a large group.</p>
-        </div>
+        </div> -->
     </main>
 
     <footer>
